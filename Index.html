@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TvojeTepovanie Žilina | Tepovanie sedačiek, kobercov a áut</title>
+<meta name="description" content="Profesionálne tepovanie v Žiline a okolí. Sedačky, koberce, matrace, stoličky a interiéry áut. TvojeTepovanie.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:#171717;background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:92%;max-width:1100px;margin:auto}
+
+header{
+background:#101827;color:white;
+position:sticky;top:0;z-index:1000;
+box-shadow:0 2px 15px #0004
+}
+.nav{
+min-height:70px;display:flex;align-items:center;
+justify-content:space-between;gap:20px
+}
+.logo{font-size:23px;font-weight:900}
+.logo span{color:#e51d2a}
+nav{display:flex;gap:22px;font-weight:bold}
+nav a:hover{color:#e51d2a}
+
+.hero{
+background:linear-gradient(135deg,#101827,#26364c);
+color:white;padding:85px 0 75px;
+text-align:center
+}
+.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.05;margin-bottom:20px}
+.hero h1 span{color:#e51d2a}
+.hero p{font-size:20px;max-width:700px;margin:0 auto 30px;color:#e8edf3}
+.buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.btn{
+display:inline-block;padding:14px 22px;border-radius:9px;
+font-weight:bold;background:#e51d2a;color:white
+}
+.btn.dark{background:white;color:#101827}
+.btn:hover{transform:translateY(-2px)}
+
+.promo{
+background:#e51d2a;color:white;text-align:center;padding:25px 15px
+}
+.promo h2{font-size:30px}
+.promo strong{font-size:20px}
+
+section{padding:70px 0}
+.section-title{text-align:center;margin-bottom:40px}
+.section-title h2{font-size:36px;color:#101827}
+.section-title p{color:#666}
+
+.cards{
+display:grid;grid-template-columns:repeat(3,1fr);gap:20px
+}
+.card{
+background:white;border-radius:15px;padding:25px;
+box-shadow:0 5px 25px #00000012;border:1px solid #eee
+}
+.card .icon{font-size:38px;margin-bottom:12px}
+.card h3{margin-bottom:8px;color:#101827}
+
+.prices{
+background:#f5f6f8
+}
+.price-list{
+max-width:800px;margin:auto;
+background:white;border-radius:15px;overflow:hidden;
+box-shadow:0 5px 25px #00000012
+}
+.price{
+display:flex;justify-content:space-between;
+padding:16px 22px;border-bottom:1px solid #eee
+}
+.price:last-child{border-bottom:0}
+.price b{color:#e51d2a}
+
+.highlight{
+margin-top:25px;background:#101827;color:white;
+padding:25px;border-radius:15px;text-align:center
+}
+.highlight b{color:#ff3b48}
+
+.steps{
+display:grid;grid-template-columns:repeat(3,1fr);gap:20px
+}
+.step{
+text-align:center;padding:25px
+}
+.number{
+width:50px;height:50px;border-radius:50%;
+background:#e51d2a;color:white;
+display:flex;align-items:center;justify-content:center;
+font-size:22px;font-weight:bold;margin:0 auto 15px
+}
+
+.contact{
+background:#101827;color:white
+}
+.contact-box{
+max-width:750px;margin:auto;text-align:center
+}
+.contact h2{font-size:38px;margin-bottom:15px}
+.contact p{color:#d8dee7;margin-bottom:25px}
+.contact .btn{margin:5px}
+
+footer{
+background:#080d15;color:#aaa;text-align:center;padding:30px 15px
+}
+footer strong{color:white}
+
+@media(max-width:750px){
+nav{display:none}
+.cards,.steps{grid-template-columns:1fr}
+.hero{padding:60px 0}
+section{padding:55px 0}
+.price{font-size:15px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<div class="logo">Tvoje<span>Tepovanie</span></div>
+<nav>
+<a href="#sluzby">Služby</a>
+<a href="#cennik">Cenník</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<p style="color:#ff4a55;font-weight:bold;margin-bottom:10px">
+TVOJETЕPOVANIE ŽILINA
+</p>
+<h1>Čistota,<br><span>ktorá je vidieť.</span></h1>
+<p>
+Profesionálne tepovanie sedačiek, kobercov, matracov,
+stoličiek a interiérov áut v Žiline a okolí.
+</p>
+<div class="buttons">
+<a class="btn" href="tel:+421901712111">📞 Zavolať</a>
+<a class="btn dark" href="https://wa.me/421901712111">💬 WhatsApp</a>
+</div>
+</div>
+</section>
+
+<div class="promo">
+<div class="container">
+<h2>🔥 OKTÓBER = ČAS NA ČISTÚ SEDAČKU!</h2>
+<p>Tepovanie sedačky + <strong>1 ks kusového koberca ZDARMA</strong></p>
+<p>Stačí povedať heslo <strong>OKTÓBER</strong></p>
+</div>
+</div>
+
+<section id="sluzby">
+<div class="container">
+<div class="section-title">
+<h2>Naše služby</h2>
+<p>Profesionálne čistenie u vás doma alebo vo firme.</p>
+</div>
+
+<div class="cards">
+<div class="card">
+<div class="icon">🛋️</div>
+<h3>Sedačky a čalúnenie</h3>
+<p>Profesionálne tepovanie sedačiek, kresiel, stoličiek a ďalšieho čalúneného nábytku.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧼</div>
+<h3>Koberce a matrace</h3>
+<p>Čistenie kusových kobercov, matracov a ďalších textilných povrchov.</p>
+</div>
+
+<div class="card">
+<div class="icon">🚗</div>
+<h3>Interiéry áut</h3>
+<p>Kompletné tepovanie interiéru auta priamo u vás doma.</p>
+</div>
+
+<div class="card">
+<div class="icon">🏢</div>
+<h3>Firmy a prevádzky</h3>
+<p>Tepovanie kancelárií, prevádzok a firemných priestorov.</p>
+</div>
+
+<div class="card">
+<div class="icon">🏫</div>
+<h3>Škôlky</h3>
+<p>Čistenie kobercov a čalúneného vybavenia materských škôl.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧽</div>
+<h3>Profesionálna technika</h3>
+<p>Pri práci používame profesionálnu tepovaciu techniku.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="cennik" class="prices">
+<div class="container">
+<div class="section-title">
+<h2>Cenník</h2>
+<p>Aktuálne ceny tepovania</p>
+</div>
+
+<div class="price-list">
+<div class="price"><span>Sedačka – 1 miesto</span><b>12 €</b></div>
+<div class="price"><span>Sedačka – 5 a viac miest</span><b>11 €/miesto</b></div>
+<div class="price"><span>Kožená sedačka</span><b>14 €/miesto</b></div>
+<div class="price"><span>Kreslo</span><b>16 €</b></div>
+<div class="price"><span>Matrac – 1 strana</span><b>8 €</b></div>
+<div class="price"><span>Kusový koberec</span><b>3,50 €/m²</b></div>
+<div class="price"><span>Autosedačka</span><b>9 €/ks</b></div>
+</div>
+
+<div class="highlight">
+<strong>🚗 KOMPLETNÉ TEPOVANIE INTERIÉRU AUTA</strong>
+<p>Kompletný interiér okrem stropu</p>
+<b style="font-size:28px">115 €</b>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-title">
+<h2>Ako to funguje?</h2>
+<p>Jednoduché objednanie v troch krokoch.</p>
+</div>
+
+<div class="steps">
+<div class="step">
+<div class="number">1</div>
+<h3>Kontaktujete nás</h3>
+<p>Zavolajte alebo nám napíšte cez WhatsApp.</p>
+</div>
+
+<div class="step">
+<div class="number">2</div>
+<h3>Dohodneme termín</h3>
+<p>Vyberieme termín, ktorý vám vyhovuje.</p>
+</div>
+
+<div class="step">
+<div class="number">3</div>
+<h3>Vyčistíme</h3>
+<p>Prídeme k vám a profesionálne vyčistíme objednané povrchy.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="kontakt">
+<div class="container contact-box">
+<h2>Chcete čistú sedačku?</h2>
+<p>
+Objednajte si profesionálne tepovanie v Žiline a okolí.
+</p>
+
+<a class="btn" href="tel:+421901712111">📞 0901 712 111</a>
+<a class="btn" href="https://wa.me/421901712111">💬 Napísať na WhatsApp</a>
+
+<p style="margin-top:25px">
+TvojeTepovanie Žilina<br>
+📧 TvojeTepovanie@gmail.com
+</p>
+</div>
+</section>
+
+<footer>
+<p><strong>TvojeTepovanie Žilina</strong></p>
+<p>Čistota, kvalita, dôvera.</p>
+<p>© 2026 TvojeTepovanie</p>
+</footer>
+
+</body>
+</html>
